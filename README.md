@@ -1,4 +1,4 @@
-# SWYNEX-Data-cleaning-preparation
+# SWYNEX-Techonologies-Data analyst internship
 # B2B CRM Sales Pipeline Analysis & Data Cleaning Project
 
 ## 📌 Project Overview
