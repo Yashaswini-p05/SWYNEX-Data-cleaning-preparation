@@ -2,34 +2,34 @@
 **Repository:** `SWYNEX-Technologies-Data-Analyst-Internship`  
 **Author:** [Yashaswini Polakonda](https://github.com/Yashaswini-p05)  
 **Role:** Data Analyst Intern | Data & AI Domain  
+**Organization:** SWYNEX Technologies  
 
 ---
 
-## 📌 Internship & Project Overview
+## 📌 Project & Case Study Overview
 
-During my virtual Data Analyst Internship with **SWYNEX Technologies** (Data & AI Domain), I executed an end-to-end data analytics project focused on **B2B CRM Sales Pipeline Analysis & Business Intelligence**.
+During my virtual Data Analyst Internship with **SWYNEX Technologies**, I completed a multi-stage data analytics case study analyzing a **B2B CRM Sales Pipeline dataset** (8,451+ transactional records sourced from Maven Analytics). 
 
-The goal of this project was to transform a raw multi-sheet B2B CRM dataset (sourced from Maven Analytics) into a clean relational database schema, execute deep T-SQL exploratory data analysis, build an interactive Excel executive dashboard, and engineer an executive-ready **Power BI Business Intelligence Dashboard** complete with DAX modeling and strategic business recommendations.
+The primary objective was to clean raw multi-sheet CRM data, build a relational star schema database, perform exploratory T-SQL analytics, create an Excel EDA report, and build an executive **Power BI Business Intelligence Dashboard** equipped with DAX metrics and strategic business recommendations.
 
 ---
 
-## 🛠️ Tech Stack & Skills Demonstrated
+## 🛠️ Tech Stack & Technical Competencies
 
-- **Database & Data Engineering:** Microsoft SQL Server Management Studio (SSMS), T-SQL (`COALESCE`, `TRY_CAST`, `DATEDIFF`, `FORMAT`, multi-table `JOIN`s, conditional aggregation)
+- **Database Engineering:** Microsoft SQL Server Management Studio (SSMS), T-SQL (`COALESCE`, `TRY_CAST`, `DATEDIFF`, `FORMAT`, Multi-Table `JOIN`s, Conditional Aggregation)
 - **Data Modeling & BI:** Power BI Desktop, Star Schema Relational Modeling, DAX Measures (`CALCULATE`, `SUM`, `COUNT`, `AVERAGE`)
-- **Spreadsheet Analytics:** Microsoft Excel, Data Consolidation, Data Preparation, KPI Cards, Interactive Charting
-- **Executive Communication:** Visual Hierarchy & Layout Design, Strategic Insight Panels, Video Walkthrough Presentation
+- **Spreadsheet Analytics:** Microsoft Excel, Data Preparation, KPI Card Construction, Interactive Visuals
+- **Documentation & Reporting:** Technical Case Studies, Strategic Recommendation Panels, Walkthrough Video Presentations
 
 ---
 
-## 🗄️ Relational Database Architecture (`Swynex_CRM_DB`)
+## 🗄️ Database Architecture & Schema (`Swynex_CRM_DB`)
 
-The dataset spans **8,451+ transactional records** modeled into five core relational tables:
-1. **`sales_pipeline_crm`**: Core fact table tracking opportunity IDs, sales agents, products, accounts, deal stages, close values, and dates.
-2. **`accounts_crm`**: Client account details (sector, year established, annual revenue, employee count, office location).
-3. **`products_crm`**: Product catalog listing product series and sales prices.
-4. **`sales_teams_crm`**: Sales hierarchy mapping sales agents to managers and regional offices.
-5. **`data_dictionary_crm`**: Metadata documentation defining field parameters and business logic.
+- **`sales_pipeline_crm` (Fact Table):** Tracks `opportunity_id`, `sales_agent`, `product`, `account`, `deal_stage`, `engage_date`, `close_date`, and `close_value`.
+- **`accounts_crm` (Dimension Table):** Client details including `sector`, `year_established`, `annual_revenue`, `employee_count`, and `office_location`.
+- **`products_crm` (Dimension Table):** Product catalog listing `product_name`, `series`, and `sales_price`.
+- **`sales_teams_crm` (Dimension Table):** Hierarchy mapping `sales_agent` to `manager` and `regional_office`.
+- **`data_dictionary_crm` (Metadata):** Definitions and parameter rules for all fields.
 
 ---
 
@@ -57,4 +57,8 @@ SWYNEX-Technologies-Data-Analyst-Internship/
 │   │   └── dashboard_screenshot.png
 │   └── README.md
 │
-└── README.md  <-- (Main Repository Overview)
+├── Task-4-Final-Project-Case-Study/
+│   ├── Case_Study_Document.pdf
+│   └── README.md
+│
+└── README.md  <-- (Master Repository Overview)
